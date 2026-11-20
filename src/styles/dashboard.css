@@ -1,0 +1,29 @@
+
+.dashboard-layout {
+  min-height: 100vh;
+  background: #f3f8fb;
+}
+
+.main-content {
+  margin-left: 245px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-page {
+  padding: 30px 35px;
+  flex: 1;
+}
+
+/* Responsive layout */
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 0;
+  }
+
+  .dashboard-page {
+    padding: 20px 15px;
+  }
+}
