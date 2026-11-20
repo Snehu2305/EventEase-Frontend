@@ -6,3 +6,6 @@ npm install
 
 <!-- Install Bootstrap and React Icons -->
 npm install bootstrap react-icons
+
+<!-- Run the Project -->
+npm run dev
